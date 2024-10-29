@@ -31,3 +31,6 @@
 <div align="center">
 <a href="https://github.com/HirenCodeMaster11/media_player/blob/master/lib/View/Play%20Screen/play.dart">-> 📂 Go To Dart File 📂 <-</a>
 </div>
+
+# Description : 
+```A music player in Flutter is an application that allows users to play, pause, and navigate through their music library. It typically features a sleek user interface with album artwork, track information, and playback controls. The player can support various audio formats and provide functionalities like playlists, shuffle, and repeat. Integration with local storage or streaming services enables users to access their favorite tracks easily. Additionally, background playback and notifications enhance user experience while multitasking.```
