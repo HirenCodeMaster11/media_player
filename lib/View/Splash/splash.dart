@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -10,6 +12,9 @@ class SplashScreen extends StatefulWidget {
 class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
+    Timer(Duration(seconds: 3), () {
+      Navigator.of(context).pushNamed('/home');
+    },);
     double w = MediaQuery.sizeOf(context).width;
     double h = MediaQuery.sizeOf(context).height;
     return Scaffold(
@@ -29,7 +34,7 @@ class _SplashScreenState extends State<SplashScreen> {
                 Text('o',style: TextStyle(color: Color(0xffC81CC2),fontWeight: FontWeight.w500,fontSize: w*0.11,height: -w*0.0026),),
                 Text('x',style: TextStyle(color: Color(0xff671DF1),fontWeight: FontWeight.w500,fontSize: w*0.11,height: -w*0.0026),),
               ],
-            )
+            ),
           ],
         ),
       ),
